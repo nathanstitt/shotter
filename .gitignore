@@ -1,0 +1,23 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.claude
+# Environment
+.env
+.env.local
+
+# Screenshots output
+screenshots/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
