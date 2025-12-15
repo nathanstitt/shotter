@@ -12,7 +12,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "shotter": "./dist/index.js"
+    "shotter": "./dist/index.js",
+    "shotter-mcp": "./dist/server.js"
   },
   "scripts": {
     "build": "tsc",
@@ -28,6 +29,7 @@
     "@anthropic-ai/sdk": "^0.71.2",
     "@modelcontextprotocol/sdk": "^1.24.3",
     "dotenv": "^17.2.3",
-    "yaml": "^2.8.2"
+    "yaml": "^2.8.2",
+    "zod": "^3.24.0"
   }
 }
